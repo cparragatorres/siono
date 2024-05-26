@@ -1,0 +1,68 @@
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+h1 {
+    padding: 10px;
+    color: #0ae6db;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+button {
+    color: #fff;
+    width: 80px;
+    height: 40px;
+    border: 3px solid #0ae6db;
+    border-radius: 10px;
+    background-color: #0ae6db7b;
+    font-size: xx-large;
+    
+}
+
+#Si {
+    grid-row:  5;
+    grid-column: 5;
+}
+
+#No {
+    grid-row: 5;
+    grid-column: 6;
+    
+}
+
+section {
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    width: 1200px;
+    height: 600px;
+    align-items: center;
+    justify-items: center;
+}
+
+body {
+    max-width: 1200px;
+    max-height: 673px;
+    margin: 0 auto;
+    background-image: url(/foto/901a86bb869b2b494637ebbfd7468b8c.jpg);
+    background-repeat: no-repeat; 
+    background-position: center center; 
+     background-size: cover;
+    
+}
+
+p {
+    padding: 10px;
+    font-size: xx-large;
+    justify-content: center;
+    color: #fff;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    background-color: #4e2b1c;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
